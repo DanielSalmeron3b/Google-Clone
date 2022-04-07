@@ -1,9 +1,23 @@
+:root {
+    --body-bkg: #FFF;
+    --footer-bkg: #f2f2f2;
+    --font-main: #000;
+    --button-bkg: #f2f2f2;
+    --button-border: #f2f2f2;
+    --main-input-border: #dfe1e5;
+    --button-hover: #f8f8f8;
+    --button-font: #5f6368;
+    --footer-border: #e4e4e4;
+}
+
 body {
     margin: 0;
     padding: 0;
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
+    background: var(--body-bkg);
 }
+
 a{
     text-decoration: none;
     cursor: pointer;
@@ -26,7 +40,7 @@ header nav .nav-right-section{
     gap: 14px;
 }
 nav .nav-right-section a{
-    color: #000000;
+    color: var(--font-main);
 }
 nav .nav-right-section .menu-icon{
     background-image:url('https://static.thenounproject.com/png/654601-200.png');
@@ -66,7 +80,7 @@ main .main-input {
 main .main-input-container{
     width: 525px;
     border-radius: 100px;
-    border: 1px solid #dfe1e5;
+    border: 1px solid var(--main-input-border);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,6 +90,7 @@ main .main-input input{
     height: 40px;
     border: none;
     outline: none;
+    background: none;
 }
 main .main-input-container:hover{
     box-shadow: 0 1px 6px 0 #20212447;
@@ -108,10 +123,10 @@ main .main-buttons div{
 }
 main .main-buttons button{
     height: 36px;
-    background-color: #f2f2f2;
-    border: 1px solid #f2f2f2;
+    background: var(--button-bkg);
+    border: 1px solid var(--button-border);
     font-size: 14px;
-    color: #5f6368;
+    color: var(--button-font);
     border-radius: 5px;
     padding: 0 15px;
     margin-right: 8px;
@@ -120,7 +135,7 @@ main .main-buttons button:hover{
     border: 1px solid #c6c6c6;
     box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
     color: #222;
-    background-color: #f8f8f8;
+    background: var(--button-hover);
     cursor: pointer;
 }
 
@@ -133,8 +148,8 @@ footer{
     grid-template-columns: 1fr 1fr;
     align-items: center;
     font-size: 13px;
-    background-color: #f2f2f2;
-    border-top: 1px solid #e4e4e4;
+    background: var(--footer-bkg);
+    border-top: 1px solid var(--footer-border);
 }
 footer ul {
     margin: 10px;

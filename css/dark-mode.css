@@ -1,0 +1,53 @@
+/* Dark Mode */
+
+/* CSS Variables */
+.darkmode-active {
+    --body-bkg: #202124;
+    --footer-bkg: #171717;
+    --font-main: #fff;
+    --button-bkg: #303134;
+    --button-border: none;
+    --main-input-border: #3e4044;
+    --button-hover: #303134;
+    --button-font: #fff;
+    --footer-border: #1a1a1b;
+}
+
+.dark-mode-button input {
+    position: absolute;
+    visibility: hidden;
+}
+
+.dark-mode-button label {
+    align-items: center;
+    background: url('');
+    background-position: bottom;
+    background-size: cover;
+    border-radius: 35px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    cursor: pointer;
+    display: flex;
+    height: 50px;
+    position: relative;
+    width: 110px;
+}
+.dark-mode-button label .sun-moon {
+    background: #FFF;
+    border-radius: 50%;
+    height: 30px;
+    margin: 4px;
+    transition: transform 0.3s ease;
+    width: 30px;
+}
+
+
+/* Dark Mode styles for the button */
+
+.dark-mode-button #toggle-button:checked + label {
+    background: url('');
+    background-position: center;
+    background-size: cover;
+}
+.dark-mode-button #toggle-button:checked + label .sun-moon {
+    transform: translateX(72px);
+}
