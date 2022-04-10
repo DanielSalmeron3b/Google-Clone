@@ -12,7 +12,11 @@
     --button-font: #fff;
     --footer-border: #1a1a1b;
 }
-
+.dark-mode-button{
+    position: absolute;
+    right: 90%;
+    top: 6px;
+}
 .dark-mode-button input {
     position: absolute;
     visibility: hidden;
@@ -20,7 +24,7 @@
 
 .dark-mode-button label {
     align-items: center;
-    background: url('');
+    background: url('https://cdn.dribbble.com/users/580699/screenshots/2934892/summer.gif');
     background-position: bottom;
     background-size: cover;
     border-radius: 35px;
@@ -44,7 +48,7 @@
 /* Dark Mode styles for the button */
 
 .dark-mode-button #toggle-button:checked + label {
-    background: url('');
+    background: url('https://cdn.dribbble.com/users/722246/screenshots/2273454/night_hill.gif');
     background-position: center;
     background-size: cover;
 }

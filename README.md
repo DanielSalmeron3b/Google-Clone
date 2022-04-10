@@ -1,4 +1,4 @@
 # Google-Clone
-Simplemente, un clon de Google :)
-
-Pronto añadiré la opción de usarlo en modo claro/día y en modo oscuro/noche
+Just a Google clone :)
+I added the 'toggle dark mode' button.
+It's not responsive yet.
