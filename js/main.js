@@ -6,7 +6,7 @@ const darkModeOn = () => {
 
     document.body.classList.add('darkmode-active');
 
-    document.getElementById('mainImage').src = "../assets/google-logo-white.png";
+    document.getElementById('mainImage').src = '../assets/gohttps://www.google.com.sv/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.pngogle-logo-white.png';
     document.getElementById('appsIcon').style.backgroundImage = "url('../assets/google-apps-icon.png')";
 
     localStorage.setItem('darkMode', 'enabled');
